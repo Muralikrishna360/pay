@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+</head>
+<style>
+body{
+background-image:url("C:\Users\MURALI KRISHNA\Pictures\logo.png");
+background-color:white;
+background-blend-mode:darken;
+}
+body > #bg{
+height:100%;
+width:100%;
+background-color:rgb(136, 18, 227);
+clip-path: polygon(64% 0, 100% 0, 100% 18%, 0 100%, 0 0);
+
+
+
+
+}
+img{
+margin-top:30px;
+margin-left:40px;
+height:200px;
+width:200px;
+box-shadow:10px 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+h1{
+font-size:60px;
+color:white;
+}
+.d{
+margin-top:30px;
+margin-left:30px;
+height:200px;
+width:250px;
+background-color:white;
+box-shadow:10px 10px;
+border-radius:20px;
+}
+h3{
+text-align:center;
+color:orange;
+}
+body> #fg{
+clip-path: polygon(83% 37%, 100% 37%, 100% 75%, 100% 100%, 0 100%, 43% 66%);
+background-color:cyan;
+height:100%;
+width:100%;
+}
+</style>
+<body>
+<div id='bg'>
+ <ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#news">Events</a></li>
+  <li><a href="#news">Login</a></li>
+  <li><a href="pay">Pay here</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+ </ul>
+    <div class='d'>
+     <h3> Our Events ......</h3>
+        <ul>
+           <li><h5>R&D</h5></li>
+           <br>
+           <li><h5>R&D</h5></li>
+
+        </ul>
+    </div>
+<h1><i><marquee direction = "right">Team Induce</marquee></i></h1>
+
+</div>
+<div id="fg">
+
+</div>
+</body>
+</html>
